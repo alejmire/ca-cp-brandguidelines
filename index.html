@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen 2 Brand Guidelines</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Styleguide</h1>
+        <nav>
+            <ul>
+                <li><a href="#Colors">Colors</a></li>
+                <li><a href="#Fonts">Fonts</a></li>
+                <li><a href="#Text Styles">Text Styles</a></li>
+                <li><a href="#Buttons">Buttons</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--colors-->
+        <section class="modules">
+            <h2>Colors</h2>
+                <div class="colors">
+                    <div class="box white"></div>
+                    <p><span class="minititle">White</span><br> rgb: 255, 255, 255; <br> hex: #FFFFFF <br><br><span class="text-highlights">Gradient Color</span></p>
+                </div>
+                <div class="colors">
+                    <div class="box grey"></div>
+                    <p><span class="minititle">Grey</span><br>rgb: 161, 164, 166;<br>hex: #A1A4A6<br><br><span class="text-highlights">Gradient Color</span></p>
+                </div>
+                <div class="colors">
+                    <div class="box dark-blue"></div>
+                    <p><span class="minititle">Dark Blue</span><br>rgb: 1, 4, 64;<br>hex: ##010440<br><br><span class="text-highlights">Text Color</span></p>
+                </div>
+                <div class="colors">
+                    <div class="box electric-blue"></div>
+                    <p><span class="minititle">Electric blue</span><br>rgb: 5, 40, 242;<br>hex: #0528F2<br><br><span class="text-highlights">Text Accent Color</span></p>
+                </div>
+                <div class="colors">
+                    <div class="box electric-red"></div>
+                    <p><span class="minititle">Electric Red</span><br>rgb: 242, 25, 5;<br>hex: #F21905<br><br><span class="text-highlights">Element Color</span></p>
+                </div>
+        </section>
+        <!--fonts-->
+        <section class="modules">
+            <h2>Fonts</h2>
+            <div class="fonts karla-text">
+                <p class="minititle underline">Karla</p>
+                <p>The quick brown fox jumps over the lazy dog.</p>
+                <p class="karla-text karla-text-bold">The quick brown fox jumps over the lazy dog.</p>
+                <p class="karla-text karla-text-italic">The quick brown fox jumps over the lazy dog.</p>
+                <p class="karla-text karla-text-italic-bold">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+            <div class="fonts inconsolata-text">
+                <p class="minititle underline">Inconsolata</p>
+                <p>The quick brown fox jumps over the lazy dog.</p>
+                <p class="inconsolata-text-bold">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+        </section>
+        <!--text styles-->
+        <section class="modules">
+            <h2>Text Sytles</h2>
+            <div class="text-styles-container">
+                <div class="text-styles-space-content">
+                    <p class="text-h1 underline">H1: Main page heading</p>
+                    <p><span class="minititle">Font-weight:</span> bold<br><span class="minititle">Font-size:</span> 36px<br><span class="minititle">Font-family:</span> Karla</p>
+                </div> 
+                <div class="text-styles-space-content">
+                    <p class="text-h2 underline">H2: Subheading</p>
+                    <p><span class="minititle">Font-weight:</span> bold<br><span class="minititle">Font-size:</span> 22px<br><span class="minititle">Font-family:</span> Karla</p>
+                </div> 
+                <div class="text-styles-space-content">
+                    <p class="underline minititle">P: Paragraph text</p>
+                    <p><span class="minititle">Font-weight:</span> Regular<br><span class="minititle">Font-size:</span> 14px<br><span class="minititle">Font-family:</span> Inconsolata</p>
+                </div>
+            </div>    
+        </section>
+        <!--buttons-->
+        <section class="modules">
+            <h2>Buttons</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Enabled</th>
+                        <th>Disabled</th>
+                        <th>Hovered</th>
+                        <th>Pressed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Primary</th>
+                        <td> <button href="#" class="button">Button</button></td>
+                        <td> <button href="#" class="button button-primary-disabled">Button</button></td>
+                        <td> <button href="#" class="button button-primary-hovered ">Button</button></td>
+                        <td> <button href="#" class="button button-primary-pressed">Button</button></td>
+                    </tr>
+                    <tr>
+                        <th>Secondary</th>
+                        <td> <button href="#" class="button button-secondary">Button</button></td>
+                        <td> <button href="#" class="button button-secondary button-secondary-disabled">Button</button></td>
+                        <td> <button href="#" class="button button-secondary button-secondary-hovered">Button</button></td>
+                        <td> <button href="#" class="button button-secondary button-secondary-pressed">Button</button></td>
+                    </tr>
+                    <tr>
+                        <th>Text Buttons</th>
+                        <td> <button href="#" class="button button-text">Button</button></td>
+                        <td> <button href="#" class="button button-text button-text-disabled">Button</button></td>
+                        <td> <button href="#" class="button button-text button-text-hovered">Button</button></td>
+                        <td> <button href="#" class="button button-text button-text-pressed">Button</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p class="footer-text minititle">Alejandro Mirena Portfolio Styleguide + Alejandro Mirena Portfolio Styleguide + Alejandro Mirena Portfolio Styleguide + Alejandro Mirena Portfolio Styleguide + Alejandro Mirena Portfolio Styleguide + Alejandro Mirena Portfolio Styleguide + Alejandro Mirena Portfolio Styleguide + Alejandro Mirena Portfolio Styleguide + Alejandro Mirena Portfolio Styleguide + Alejandro Mirena Portfolio Styleguide</p>
+    </footer>
+</body>
+</html>
