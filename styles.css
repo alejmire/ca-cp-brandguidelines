@@ -1,0 +1,283 @@
+* {
+    border: 0px solid red;
+}
+
+body {
+    width: 1920px;
+}
+
+header {
+    width: auto;
+    margin-left: 48px;
+    margin-right: 48px;
+    height: 64px;
+    display: inline-flex;
+}
+
+h1 {
+    margin:auto;
+    width: 182px;
+    font-family: "Karla", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #010440;
+}
+
+header nav ul {
+    position: relative;
+    top: 22px;
+    margin: auto;
+    width: 480px;
+    font-family: "karla", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+header li {
+    display: inline;
+}
+
+li a {
+    padding-right: 30px;
+    font-family: "karla", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #010440;
+    text-decoration: none;
+}
+
+li a:hover{
+    font-family: "karla", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #0528F2;
+    text-decoration: none;
+}
+main {
+    width: auto;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+h2 {
+    position: relative;
+    font-family: "karla", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #010440;
+}
+
+p {
+    font-family: "inconsolata", sans-serif;
+    font-size: 14px;
+    font-weight: regular;
+    line-height: 1.5;
+    color: #010440;
+}
+
+th {
+    font-family: "Karla", sans-serif;
+    font-size: 14px;
+    font-weight: regular;
+    line-height: 1.5; 
+    text-align: left;
+}
+
+th {
+    text-align: center;
+    width: 100px;
+    height: 50px;
+}
+
+td {
+    text-align: center;
+    width: 150px;
+    height: 100px;
+}
+
+footer{
+    position: relative;
+    overflow: hidden;
+    width: 1920px;
+    height: 64px;
+}
+
+.modules {
+    margin-bottom: 80px;
+}
+.colors {
+    display: inline-block;
+    width: 200px;
+    margin: 0 0;
+}
+
+.box {
+    width: 200px;
+    height: 325px;
+}
+.white {
+    background-color: #FFFFFF;
+    border: 1px solid #010440;
+}
+
+.grey {
+    background-color: #A1A4A6;
+}
+
+.dark-blue {
+    background-color: #010440;
+}
+
+.electric-blue {
+    background-color: #0528F2;
+}
+
+.electric-red {
+    background-color: #F21905;
+}
+
+.minititle {
+    font-weight: bold;
+}
+
+.text-highlights {
+    color: #0528F2;
+}
+
+.underline {
+    border-bottom: 2px solid #F21905;
+    padding: 1px;
+    width: fit-content;
+}
+.fonts {
+    display: inline-block;
+    width: 350px;
+    vertical-align:top;
+}
+
+.karla-text {
+    font-family: "karla", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.karla-text-bold {
+    font-weight: bold;
+}
+
+.karla-text-italic{
+    font-weight: regular;
+    font-style: italic;
+}
+.karla-text-italic-bold {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.inconsolata-text {
+    font-family: "inconsolata", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.inconsolata-text-bold {
+    font-weight: bold;
+}
+
+.text-h1 {
+    font-family: "karla", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.text-h2 {
+    font-family: "karla", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.text-styles-container {
+width: fit-content;
+}
+
+.text-styles-space-content {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.button {
+    cursor: pointer;
+    padding: 8px 25px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #F21905;
+    font-family: "karla", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+.button-primary-disabled {
+    background-color: #F2190530;
+}
+
+.button-primary-hovered {
+    background-color: #0528F2;
+}
+
+.button-primary-pressed {
+    background-color: #010440;
+}
+
+.button-secondary {
+    background-color: #FFFFFF;
+    border: 2px solid #F21905;
+    color: #010440;
+}
+
+.button-secondary-disabled {
+    border: 2px solid #F2190530;
+    color: #01044030;
+}
+
+.button-secondary-hovered {
+    border: 2px solid #0528F2;
+    color: #0528F2;
+}
+
+.button-secondary-pressed {
+    border: 2px solid #010440;
+    color: #010440;
+}
+
+.button-text {
+    background-color: transparent;
+    color: #010440;
+    border: none;
+}
+
+.button-text-disabled {
+    color: #01044030;
+}
+
+.button-text-hovered {
+    color: #0528F2;
+}
+
+.button-text-pressed {
+    color: #010440;
+}
+
+.footer-text {
+    position: absolute;
+    width: 2200px;
+    left: -600px;
+    white-space: nowrap;
+    animation: text-animation 10s infinite linear;
+}
+
+@keyframes text-animation {
+    0% {left: -600px;}
+    100% {left: -40px;}
+}
